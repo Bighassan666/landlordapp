@@ -1,0 +1,37 @@
+{
+  "name": "LANDLORD",
+  "short_name": "LANDLORD",
+  "description": "Remote property, tenancy and construction management for Ghana.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B1020",
+  "theme_color": "#0B1020",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "finance"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "./index.html?go=dashboard"
+    },
+    {
+      "name": "Properties",
+      "short_name": "Properties",
+      "url": "./index.html?go=properties"
+    },
+    {
+      "name": "Messaging",
+      "short_name": "Messaging",
+      "url": "./index.html?go=messaging"
+    }
+  ]
+}
